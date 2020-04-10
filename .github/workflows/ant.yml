@@ -23,7 +23,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: Package
-        path: build/jar
+        path: .
     - name: Create a Release
       uses: AButler/upload-release-assets@v2.0
       with:
