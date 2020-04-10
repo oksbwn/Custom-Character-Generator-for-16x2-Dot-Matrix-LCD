@@ -23,7 +23,7 @@ jobs:
     - name: Create a Release
       uses: AButler/upload-release-assets@v2.0
       with:
-        files: '*'
+        files: 'generator_lib/*;generator.jar'
         repo-token: ${{ secrets.GITHUB_TOKEN }}
       
 
